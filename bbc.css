@@ -1,0 +1,280 @@
+#topbar {
+  width: 1050px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo {
+  margin-top: 8px;
+  width: 100px;
+  float: left;
+  margin-right: 8px;
+}
+
+.topbar-section {
+  float: left;
+  border-left: 1px #CCCCCC solid;
+  height: 100%;
+}
+
+#signin-image {
+  width: 25px;
+  margin: 10px 15px;
+  float: left;
+}
+
+#signin-text  {
+  font-weight: bold;
+  font-size: 90%;
+  position: relative;
+  top: 14px;
+  padding-right: 50;x
+}
+
+.topbar-menu {
+  font-weight: bold;
+  font-size: 90%;
+  padding: 13px 15px 0 15px;
+  height: 27px;
+}
+
+#dropdown-image {
+  width: 14px;
+  margin-left: 20px;
+}
+
+#search-box {
+  background-color: #E4E4E4;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px 0 5px 5px;
+  float: left;
+}
+
+#magnify-image {
+  height: 27px;
+  margin-top: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+#menu-bar-container {
+  border-top: 1px solid #CCCCCC;
+  background-color: #BB1919;
+  width: 100%;
+  height: 60px;
+}
+
+#menu-bar {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+#menu-bar-category  {
+  height: 35px;
+  background-color: #A91717;
+  width: 100%;
+}
+
+#menu-bar-text  {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+#menu-bar-text a  {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  border-right: 1px solid #BB4545;
+  font-size: 14px;
+  position: relative;
+  top: 8px;
+}
+
+#menu-bar-text a:hover  {
+  text-decoration: underline;
+}
+
+.no-border  {
+  border: none !important;
+}
+
+#down-arrow-image {
+  height: 10px;
+  position: relative;
+  top: 7px;
+}
+
+#page-container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+h2  {
+  font-weight: normal;
+  margin-top: 8px;
+  font-size: 20px;
+  border-bottom: 2px solid #a91717;
+  width: 103px;
+}
+
+h3 a  {
+  color: black;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+h3 a:hover  {
+  color: #1167A8;
+}
+
+#article-summary  {
+  color: #5a5a5a;
+  font-size: 14px;
+  width: 250px;
+  float: left;
+  position: relative;
+  bottom: 15px;
+}
+
+#article-summary img  {
+  height: 25px;
+}
+
+#article-summary a  {
+  text-decoration: none;
+  color: #a91717;
+  border-left: 1px #CCCCCC solid;
+  padding-left: 5px;
+}
+
+#article-summary a:hover  {
+  color: #1167A8;
+}
+
+#date-spacing {
+  position: relative;
+  bottom: 6px;
+}
+
+#date  {
+  padding-right: 3px;
+}
+
+#mini-caption {
+  color: black;
+  float: left;
+  position: relative;
+  bottom: 3px;
+}
+
+#article-container  {
+  float: left;
+  width: 670px;
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 15px;
+}
+
+#main-article-image {
+  width: 410px;
+  height: 220px;
+}
+
+#article-hr {
+  border-top: 1px solid #a91717;
+  width: 50px;
+  position: relative;
+  bottom: 5px;
+}
+
+#watch-listen-section {
+  margin-left: 5px;
+  float: left;
+  border-left: 1px #CCCCCC solid;
+  padding-left: 15px;
+}
+
+h4  {
+  font-weight: normal;
+  font-size: 24px;
+  position: relative;
+  bottom: 25px;
+}
+
+#video-container {
+  float: left;
+  position: relative;
+  bottom: 35px;
+  width: 350px;
+  margin-bottom: 17px;
+}
+
+#video-thumbnail {
+  height: 70px;
+  width: 110px;
+  float: left;
+}
+
+#video-container a  {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#video-container a:hover  {
+  color: #1167A8 !important;
+}
+
+#video-title  {
+  position: relative;
+  left: 6px;
+  top: 3px;
+}
+
+#clock  {
+  height: 23px;
+  width:  23px;
+  float: left;
+  position: relative;
+  top: 12px;
+}
+
+#tech-videos  {
+  font-weight: normal !important;
+  color: #a91717 !important;
+  border-left: 1px #CCCCCC solid;
+  padding-left: 5px;
+  font-size: 15px;
+  position: relative;
+  top: 16px;
+}
+
+#date-videos  {
+  font-weight: normal !important;
+  color: #5a5a5a !important;
+  font-size: 15px;
+  position: relative;
+  top: 16px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
